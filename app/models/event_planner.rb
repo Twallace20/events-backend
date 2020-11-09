@@ -1,0 +1,2 @@
+class EventPlanner < ApplicationRecord
+end
