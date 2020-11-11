@@ -3,7 +3,7 @@ class CreateEvents < ActiveRecord::Migration[6.0]
     create_table :events do |t|
       t.string :location
       t.string :date
-      t.string :type
+      t.string :event_name
       t.references :user, null: false, foreign_key: true
       t.references :event_planner, null: false, foreign_key: true
     end
